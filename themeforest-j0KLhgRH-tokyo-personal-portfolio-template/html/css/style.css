@@ -325,6 +325,10 @@ a{
 	font-family: "Montserrat";
 }
 
+.company-logo{
+	width: 400px;
+	
+}
 /*---------------------------------------------------*/
 /*	03) TOKYO LEFTPART
 /*---------------------------------------------------*/
@@ -587,6 +591,7 @@ a{
 	height: auto;
 	clear: both;
 	float: left;
+	margin-bottom: 2em;
 }
 .tokyo_tm_button a{
 	color: #fff;
@@ -1120,6 +1125,7 @@ a{
 	display: none;
 	position: absolute;
 	z-index: -111;
+	
 }
 .tokyo_tm_services .service_hidden_details{
 	opacity: 0;
@@ -1133,12 +1139,14 @@ a{
 	height: auto;
 	clear: both;
 	float: left;
+	
 }
 .tokyo_tm_modalbox .service_popup_informations .image{
 	width: 100%;
 	float: left;
 	position: relative;
 	margin-bottom: 37px;
+	display: none;
 }
 .tokyo_tm_modalbox .service_popup_informations .image img{
 	position: relative;
